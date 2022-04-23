@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(cloud.png);
+    background-color: lightblue;    
+    background-size: 200px;
+}
+.ex{
+    color: red;
+    font-size:20px;
+}
+
+.title{
+    margin-right: 100px;
+  
+    width: 690px;
+    margin-left: 343px;
+}
+
+.title h2{
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tasks{
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    width:690px;
+    margin-left:345px;
+    
+}
+
+.tlt{
+  text-align: center;
+  margin-left: 653px;
+}
+
+.itens{
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(68, 82, 192);
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.inv{
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 90px;
+}

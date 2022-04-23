@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title class="tlt">Tasks List</title>
+        <link href="/public/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="title">
+            <h2 class="tlt">Tasks List</h2>
+        </div>
+
+        <div class="inv">
+            <form method="post">
+                <input type="text" name="task" class="sent"/>
+                <input type="submit" name="action" value="insert" class="sent"/>
+             </form>
+        </div>
+            
+        <div class="tasks">
+            <% for(let i = 0; i < tasksList.length; i++){ %>
+              
+                <p class="itens"><%=tasksList[i]%> | <a class="ex" href="/delete/<%= i %>">x</a></p>
+               
+            <% } %>
+        </div>
+    
+    </body>
+</html>
